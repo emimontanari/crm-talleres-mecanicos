@@ -1,0 +1,24 @@
+{
+  "name": "tallerpro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de gestión integral para talleres mecánicos",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.4.1"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "turbo": "^2.5.5",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@10.22.0"
+}
